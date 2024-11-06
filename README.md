@@ -44,9 +44,6 @@ Use your package manager to install Python. For example, on Ubuntu:
 ```
 
 
-
-## File Structure
-
 ## Getting Started
 
 ### 1. Clone the Repository
