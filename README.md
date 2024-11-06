@@ -13,15 +13,20 @@ This project consists of a simple socket application that allows two terminals t
 ### 1. Clone the Repository
 
 First, clone this repository to your local machine:
-
-git clone
+```bash
+git clone https://github.com/Mahdi-sn10/socket_massage.git
+```
 Run the Socket Server
 
 Open a terminal window and run the server code:
-python socket.py
+```bash
+python Socket.py
+```
 The server will start and wait for a client connection.
 Run the Socket Client
 
 Open another terminal window and run the client code:
-python socket_cli.py
+```bash
+python socket_cl.py
+```
 Once the client is connected to the server, you can start sending messages. Type your message in the client terminal and hit Enter to send it to the server.
