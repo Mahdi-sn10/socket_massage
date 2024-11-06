@@ -15,30 +15,29 @@ If you don't have Python installed, follow these steps:
 2. Run the installer and make sure to check the option "Add Python to PATH" during installation.
 3. Verify the installation by running:
    ```bash
-   python --version
-   '''
+     python --version
+   
 **For macOS:**
-
-  1.You can install Python using Homebrew. First, install Homebrew if you haven't:
-    ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-  2.Then install Python:
-      ```bash
-        brew install python
-      ```
-  3.Verify the installation by running:
-      ```bash
-         python3 --version
-      ```
+1.You can install Python using Homebrew. First, install Homebrew if you haven't:
+   ```bash
+       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+2.Then install Python:
+   ```bash
+      brew install python
+   ```
+3.Verify the installation by running:
+```bash
+   python3 --version
+```
 
 **For Linux:**
 
-  Use your package manager to install Python. For example, on Ubuntu:
-    ```bash
+Use your package manager to install Python. For example, on Ubuntu:
+   ```bash
       sudo apt update
       sudo apt install python3
-    ```
+   ```
  Verify the installation by running:
 ```bash
    python3 --version
