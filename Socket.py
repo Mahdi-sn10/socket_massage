@@ -18,4 +18,4 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
                 break
             print(f"{data.decode("utf-8")}")
             massage = input("type any thin:  ")
-            s.sendall(bytes(massage,encoding='utf8'))
+            conn.sendall(bytes(massage,encoding='utf8'))
